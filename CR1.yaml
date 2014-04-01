@@ -1,0 +1,20 @@
+# An executable must have a name and a location (RELATIVE TO THE ROOT OF THE GIT REPO)
+executable:
+  name: "ssa"
+  location: "StochKit"
+# The parameter_prefix is the string that will be placed at the start of all parameters.
+parameter_prefix: "--"
+# The parameter_suffix is the string that will separate the parameter and the value for value parameters.
+parameter_suffix: " "
+# File parameters are parameters that require a file name to be specified. Each parameter should be specified
+# as a (parameter name, file extension) pair.
+required_file_parameters:
+  - 
+    name: "model"
+    extension: "xml"
+# Value parameters are parameters that can have a range of values, where some value must be specified if 
+# they are included.
+required_value_parameters: ["time","realizations"]
+optional_value_parameters: ["intervals","bins","species","out-dir","seed","processes","epsilon","threshold"]
+# Boolean parameters are parameters with a binary value, whose inclusion/exclusion signify their value
+optional_boolean_parameters: ["no-stats","keep-trajectories","keep-histograms","label","force","no-recompile"]
