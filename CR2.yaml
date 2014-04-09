@@ -1,0 +1,12 @@
+executable:
+  name: "tau-leaping"
+  location: "StochKit"
+parameter_prefix: "--"
+parameter_suffix: " "
+required_file_parameters:
+  - 
+    name: "model"
+    extension: "xml"
+required_value_parameters: ["time","realizations"]
+optional_value_parameters: ["intervals","bins","species","out-dir","seed","processes","epsilon","threshold"]
+optional_boolean_parameters: ["no-stats","keep-trajectories","keep-histograms","label","force","no-recompile"]

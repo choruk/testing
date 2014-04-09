@@ -15,6 +15,6 @@ required_file_parameters:
 # Value parameters are parameters that can have a range of values, where some value must be specified if 
 # they are included.
 required_value_parameters: ["time","realizations"]
-optional_value_parameters: ["intervals","bins","species","out-dir","seed","processes","epsilon","threshold"]
+optional_value_parameters: ["intervals","bins","species","out-dir","seed","processes"]
 # Boolean parameters are parameters with a binary value, whose inclusion/exclusion signify their value
 optional_boolean_parameters: ["no-stats","keep-trajectories","keep-histograms","label","force","no-recompile"]
