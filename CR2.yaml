@@ -1,5 +1,5 @@
 executable:
-  name: "tau-leaping"
+  name: "tau_leaping"
   location: "StochKit"
 parameter_prefix: "--"
 parameter_suffix: " "
